@@ -75,7 +75,7 @@
     margin-top: 50px;
 }
 .second-images{
-    margin-left: 240px;
+    margin-left: 220px;
     row-gap: 20px;
     column-gap: 20px;
     display: grid;
@@ -98,6 +98,7 @@
 }
 .second-para{
     line-height: 30px;
+    padding-right: 150px;
 }
 .secondary-btn{
     padding: 15px;
@@ -109,6 +110,227 @@
     margin-top: 20px;
     font-weight: 600;
 }
+
+/* -------------third section----------------- */
+
+.third-container{
+    display: flex;
+
+}
+.third-left-heading{
+    border-left: #FF900E;
+    border-width: 2px;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 45px;
+    padding-bottom: 15px;
+    padding-top: 35px;
+}
+.feature-para{
+    line-height: 25px;
+    margin-right: 45px;
+}
+.third-left{
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.third-right-pic{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 55px;
+}
+.third-left-para{
+    line-height: 20px;
+}
+.left-shadow-one{
+    margin-right: 45px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px rgb(232, 228, 228);
+}
+.left-shadow-two{
+    margin-right: 45px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px rgb(232, 228, 228);
+}
+.left-shadow-three{
+    margin-right: 45px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px rgb(232, 228, 228);
+}
+.left-shadow-four{
+    margin-right: 45px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 30px rgb(232, 228, 228);
+}
+.third-btn{
+    padding: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: #FF900E;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+}
+#exp{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ----------------fourth part---------------- */
+
+.fourth-section{
+    display: flex;
+    margin-bottom: 80px;
+}
+.fourth-one{ 
+    text-align: center;  
+    margin-left: 250px; 
+    margin-right: 40px; 
+    border: 2px solid orange;
+    padding: 30px;
+    line-height: 40px;
+}
+.fourth-one:hover{ 
+    
+}
+.fourth-two{ 
+    text-align: center;
+    margin-left: 40px; 
+    margin-right: 40px;   
+    border: 2px solid orange;
+    padding: 30px;
+    line-height: 40px;
+}
+.fourth-three{ 
+    text-align: center;
+    margin-left: 40px; 
+    margin-right: 40px;   
+    border: 2px solid orange;
+    padding: 30px;
+    line-height: 40px;
+}
+.fourth-four{ 
+    text-align: center;
+    margin-left: 40px; 
+    margin-right: 40px;   
+    border: 2px solid orange;
+    padding: 50px;
+    line-height: 30px;
+}
+.fourth-heading{
+    margin-left: 200px;
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.fourth-para{
+    margin-bottom: 50px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+
+/* fifth part-------------------------------- */
+
+.fifth-heading{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+}
+.fifth-para{
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+}
+.leaders{
+    display: flex;
+}
+.leader-1{
+    margin-left: 350px;
+}
+.leader-2{
+    margin-left: 120px;
+}
+.leader-3{
+    margin-left: 120px;
+}
+
+
+
+/* ----------------sixth part---------------- */
+
+.sixth-heading{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.sixth-para{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.icons-section{
+    display: flex;
+    margin-bottom: 50px;
+}
+.spotify{
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.amazon{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.google{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.telerama{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.figma{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.copyright{
+    text-align: center;
+    border: 2px solid #FFF4E7;
+    background-color: #FFF4E7;
+    padding: 30px 120px;
+    margin-left: 180px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
