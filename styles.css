@@ -69,7 +69,7 @@
     margin-bottom: 35px;
 }
 
-/* <!--------------- Our Feature Section --------------> */
+/* <!--------------- second Section --------------> */
 .second-part{
     display: flex;
     margin-top: 50px;
@@ -115,7 +115,6 @@
 
 .third-container{
     display: flex;
-
 }
 .third-left-heading{
     border-left: #FF900E;
@@ -139,6 +138,7 @@
     margin-top: 100px;
     margin-right: 100px;
     margin-left: 55px;
+    position: relative;
 }
 .third-left-para{
     line-height: 20px;
@@ -182,6 +182,9 @@
     font-weight: 600;
     font-size: 50px;
     line-height: 45px;
+    position: absolute;
+    bottom: -30px;
+    left: -50px;
 }
 #exp{
     font-size: 20px;
@@ -190,6 +193,9 @@
 
 /* ----------------fourth part---------------- */
 
+.fourth-section-parent{
+    margin-top: 100px;
+}
 .fourth-section{
     display: flex;
     margin-bottom: 80px;
@@ -201,9 +207,13 @@
     border: 2px solid orange;
     padding: 30px;
     line-height: 40px;
+    transition-duration: 500ms;
+
 }
 .fourth-one:hover{ 
-    
+    background-color: #e7aa5f;
+    transform: scale(1.15);
+ 
 }
 .fourth-two{ 
     text-align: center;
@@ -212,6 +222,19 @@
     border: 2px solid orange;
     padding: 30px;
     line-height: 40px;
+     transition-duration: 500ms;
+}
+.fourth-two:hover{ 
+    background-color: #e7aa5f;
+     transform: scale(1.15);
+}
+.fourth-three:hover{ 
+    background-color: #e7aa5f;
+     transform: scale(1.15);
+}
+.fourth-four:hover{ 
+    background-color: #e7aa5f;
+    transform: scale(1.15);
 }
 .fourth-three{ 
     text-align: center;
@@ -220,6 +243,7 @@
     border: 2px solid orange;
     padding: 30px;
     line-height: 40px;
+    transition-duration: 500ms;
 }
 .fourth-four{ 
     text-align: center;
@@ -228,6 +252,7 @@
     border: 2px solid orange;
     padding: 50px;
     line-height: 30px;
+    transition-duration: 500ms;
 }
 .fourth-heading{
     margin-left: 200px;
@@ -293,6 +318,12 @@
     display: flex;
     margin-bottom: 50px;
 }
+.icons-section img{
+    filter: grayscale(100%);
+}
+.icons-section img:hover{
+    filter: grayscale(0%);
+}
 .spotify{
     margin-left: 150px;
     margin-right: 50px;
@@ -335,10 +366,236 @@
 
 
 
+
 /* Mobile Device */
 
 @media screen and (max-width: 576px) {
-    
-    
+    .architect {
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .para {
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 150px;
+        padding-top: 25px;
+    }
+    .second-part-para {
+        line-height: 25px;
+        text-align: left;
+        padding: 20px 30px;
+    }
+    .primary-btn {
+        margin-left: 120px;
+    }
+    .para-pic img {
+        height: 100%;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .header{
+        display: block;
+    }
+    .header-left {
+         padding-left: 0px; 
+    }
+    .header-right {
+         padding-left: 0px; 
+         align-content: center;
+         display: block;
+    }
+    .second-part-heading-2{
+        margin-bottom: 0px;
+        line-height: 40px;
+        font-size: 20px;
+        justify-content: flex-start;
+        padding-left: 70px;
+        /* font-size: 10px; */
+    }
+    .second-part-heading-1{
+        font-size: 20px;
+        justify-content: flex-start;
+        margin-bottom: 0px;
+        padding-left: 110px;
+        /* font-size: 10px; */
+    }
+
+    .second-part{
+        display: block;
+    }
+    .second-images{
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .text{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .second-para {
+        line-height: 30px;
+        padding: 5px 20px;
+        text-align: center;
+    }
+    .secondary-btn{
+        margin: 15px 130px;
+    }
+    .third-container{
+        display: block;
+    }
+    .third-left-heading{
+        border-left: #FF900E;
+        border-width: 2px;
+        padding-bottom: 15px;
+    }
+    .feature-para {
+        line-height: 25px;
+
+    }
+
+    /* third */
+
+    .third-left-heading{
+        text-align: center;
+        font-size: 35px;
+    }
+    .feature-para{
+        margin: 5px 15px 20px;
+        text-align: center;
+    }
+    .third-left{
+        margin: 5px 15px;
+    }
+    .third-right-pic img{
+        height: 100%;
+        width: 100%;
+    }
+    .third-right-pic{
+        margin: 25px 15px;
+    }
+    .third-left-para{
+        line-height: 20px;
+        margin: 5px 15px;
+    }
+    .left-shadow-one{
+        margin: 15px 15px;
+        padding: 20px;
+    }
+    .left-shadow-two{
+        margin: 15px 15px;
+        padding: 20px;
+    }
+    .left-shadow-three{
+        margin: 15px 15px;
+        padding: 20px;
+    }
+    .left-shadow-four{
+        margin: 15px 15px;
+        padding: 20px;
+    }
+    .third-btn{
+        padding: 10px;
+        font-size: 35px;
+        margin-left: 140px;
+        position: relative;
+    }
+
+    /* ----------------fourth part---------------- */
+
+.fourth-section-parent{
+    margin-top: 100px;
+}
+.fourth-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 5px 15px;
+}
+.fourth-one{ 
+    margin: 5px 15px; 
+    padding: 30px;
+}
+.fourth-two{ 
+    margin: 5px 15px;   
+    padding: 30px;
+}
+.fourth-three{ 
+    margin: 5px 15px;   
+    padding: 30px;
+}
+.fourth-four{ 
+    margin: 5px 15px;  
+    padding: 50px;
+}
+.fourth-heading{
+    margin: 5px 25px;
+    padding-bottom: 20px;
+}
+.fourth-para{
+    margin: 5px 25px;
 }
 
+/* fifth part-------------------------------- */
+
+.fifth-heading{
+    margin: 0px;
+    font-size: 30px;
+}
+.leaders{
+    display: block;
+}
+.leader-1{
+    margin: 35px 50px;
+}
+.leader-2{
+    margin: 35px 50px;
+}
+.leader-3{
+    margin: 25px 50px;
+}
+
+/* ----------------sixth part---------------- */
+
+.sixth-heading{
+   
+    margin: 5px 15px;
+}
+.sixth-para{
+    margin: 5px 15px;
+}
+.icons-section{
+    display: block;
+  
+}
+.icons-section img{
+    margin: 0px;
+}
+.icons-section-parent{
+    margin: 0px;
+}
+
+.spotify{
+    margin: 30px 20px;
+    text-align: center;
+}
+.amazon{
+    margin: 30px 20px;
+    text-align: center;
+}
+.google{
+    margin: 30px 20px;
+    text-align: center;
+}
+.telerama{
+    margin: 30px 20px;
+    text-align: center;
+}
+.figma{
+    margin: 30px 20px;
+    text-align: center;
+}
+.copyright{
+  margin: 0px;
+}
+
+}
