@@ -388,7 +388,7 @@
         padding: 20px 30px;
     }
     .primary-btn {
-        margin-left: 120px;
+        margin-left: 140px;
     }
     .para-pic img {
         height: 100%;
@@ -411,14 +411,14 @@
         line-height: 40px;
         font-size: 20px;
         justify-content: flex-start;
-        padding-left: 70px;
+        padding-left: 90px;
         /* font-size: 10px; */
     }
     .second-part-heading-1{
         font-size: 20px;
         justify-content: flex-start;
         margin-bottom: 0px;
-        padding-left: 110px;
+        padding-left: 130px;
         /* font-size: 10px; */
     }
 
